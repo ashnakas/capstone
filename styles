@@ -1,0 +1,107 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f10;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #1a1a1d;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  color: #ccc;
+  font-style: italic;
+}
+
+.toggle-section {
+  text-align: center;
+  padding: 1rem;
+  background: #1c1c1e;
+}
+
+.billing-label {
+  margin-right: 0.5rem;
+}
+
+.billing-btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+  border: none;
+  background: #333;
+  color: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.billing-btn.active {
+  background: #007bff;
+}
+
+.tiers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.card {
+  background: #1e1e22;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1rem;
+  color: #00d9ff;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.card ul li {
+  margin: 0.5rem 0;
+  border-left: 4px solid #00d9ff;
+  padding-left: 0.5rem;
+}
+
+.select-btn {
+  background: #00d9ff;
+  color: #000;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1a1a1d;
+  font-size: 0.9rem;
+  color: #777;
+}
