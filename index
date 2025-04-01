@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perception Subscription</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Perception Subscription</h1>
+    <p>Upgrade Your Vision. Control Your World.</p>
+  </header>
+
+  <section class="toggle-section">
+    <span class="billing-label">Billing:</span>
+    <button class="billing-btn active">Monthly</button>
+    <button class="billing-btn">Annually</button>
+  </section>
+
+  <section class="tiers">
+    <!-- Basic Tier -->
+    <div class="card basic">
+      <h2>Basic</h2>
+      <p class="price">$0/mo</p>
+      <ul>
+        <li>Ad-Supported Overlays</li>
+        <li>Low-Resolution Vision</li>
+        <li>Limited Navigation Access</li>
+      </ul>
+      <button class="select-btn">Select Basic</button>
+    </div>
+
+    <!-- Silver Tier -->
+    <div class="card silver">
+      <h2>Silver</h2>
+      <p class="price">$9.99/mo</p>
+      <ul>
+        <li>Fewer Ads</li>
+        <li>Medium-Resolution Vision</li>
+        <li>Priority Navigation</li>
+      </ul>
+      <button class="select-btn">Select Silver</button>
+    </div>
+
+    <!-- Gold Tier -->
+    <div class="card gold">
+      <h2>Gold</h2>
+      <p class="price">$29.99/mo</p>
+      <ul>
+        <li>Ad-Free Experience</li>
+        <li>High-Fidelity Overlays</li>
+        <li>Full Access + Exclusive Enhancements</li>
+      </ul>
+      <button class="select-btn">Select Gold</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2045 PerceptionCorp. All rights reserved.</p>
+  </footer>
+</body>
+</html>
