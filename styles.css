@@ -92,10 +92,17 @@ header p {
 .tier-img {
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  overflow: hidden;
   border-radius: 8px;
   margin-bottom: 1rem;
 }
+
+.tier-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .select-btn {
   background: #00d9ff;
   color: #000;
