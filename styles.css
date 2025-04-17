@@ -320,3 +320,12 @@ footer {
   border-left: 4px solid #00d9ff;
   padding-left: 0.5rem;
 }
+.feature-video {
+  width: 100%;
+  max-width: 700px; /* Limits how wide it gets */
+  height: auto;
+  display: block;
+  margin: 2rem auto; /* Center it with margin */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.15);
+}
