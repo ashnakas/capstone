@@ -132,3 +132,67 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+
+.card {
+  position: relative;
+  background: #1e1e22;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card::before,
+.card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 217, 255, 0.15),
+    rgba(0, 217, 255, 0.15) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1;
+}
+
+.card:hover::before {
+  opacity: 1;
+  animation: glitch-lines 0.3s infinite linear;
+}
+
+.card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 0 18px rgba(0, 217, 255, 0.5);
+  z-index: 2;
+}
+
+@keyframes glitch-lines {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateY(1px);
+  }
+  75% {
+    transform: translateY(-0.5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
