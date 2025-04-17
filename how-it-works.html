@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How It Works – Perception Subscription</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">👁️ PerceptionCorp</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="how-it-works.html" class="active">How It Works</a></li>
+    </ul>
+  </nav>
+
+  <header class="how-header">
+    <h1>How It Works</h1>
+    <p>The future of monetized perception, in high fidelity.</p>
+  </header>
+
+  <section class="lens-viewer-section">
+    <model-viewer 
+      src="curated_perception_lens_template.glb"
+      alt="3D Contact Lens Model"
+      auto-rotate
+      camera-controls
+      background-color="#0f0f10"
+      style="width: 100%; max-width: 600px; height: 500px; margin: auto; display: block;">
+    </model-viewer>
+
+    <div class="lens-description">
+      <h2>Perception Lens™ Technology</h2>
+      <p>
+        The Perception Lens™ is a neural-enhanced visual interface that overlays your world with tiered digital insights.
+        With retina-synced dynamic overlays, real-time cognition filters, and ad-compliant viewports, you’ll never miss what matters — unless your plan doesn’t include it.
+      </p>
+      <ul>
+        <li><strong>Basic Tier:</strong> 720p blurred overlays, occasional ad breaks, 10 vision tokens/day</li>
+        <li><strong>Silver Tier:</strong> 1080p augmented UI, facial tagging, smart sign recognition</li>
+        <li><strong>Gold Tier:</strong> Full AR access, predictive rendering, reality enhancement boosts</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p>&copy; 2045 PerceptionCorp. All rights reserved.</p>
+  </footer>
+</body>
+</html>
