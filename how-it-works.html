@@ -56,16 +56,13 @@
     Whether you lean left or right, NanoVision™ curates your reality to match your values, beliefs, and biases — effortlessly.
   </p>
 
-  <div class="echo-image-grid">
-    <div class="echo-image">
-      <img src="Libcapstone.png" alt="AR Left-Wing Feed" />
-      <p class="caption"> This user enjoys progressive insights, community focus, and climate urgency overlays.</p>
-    </div>
+  <button id="togglePerspectiveBtn" class="toggle-perspective-btn">Switch Perspective</button>
 
-    <div class="echo-image">
-      <img src="Conservcapstone.png" alt="AR Right-Wing Feed" />
-      <p class="caption">This user subscribes to freedom-focused narrative overlays, economic caution, and security alerts.</p>
-    </div>
+  <div class="perspective-display">
+    <img id="perspectiveImage" src="Libcapstone.png" alt="AR Perspective Feed" />
+    <p id="perspectiveCaption" class="caption">
+      Left-Wing Reality Feed: Progressive insights, community focus, and climate urgency overlays.
+    </p>
   </div>
 
   <p class="echo-note">
@@ -79,5 +76,25 @@
   <footer id="footer">
     <p>&copy; 2045 PerceptionCorp. All rights reserved.</p>
   </footer>
+  <script>
+  const toggleBtn = document.getElementById("togglePerspectiveBtn");
+  const image = document.getElementById("perspectiveImage");
+  const caption = document.getElementById("perspectiveCaption");
+
+  let isLeft = true;
+
+  toggleBtn.addEventListener("click", () => {
+    if (isLeft) {
+      image.src = "Conservecapstone.png";
+      caption.textContent = "This user subscribes to freedom-focused narrative overlays, economic caution, and security alerts.";
+      isLeft = false;
+    } else {
+      image.src = "Libcapstone.png";
+      caption.textContent = "This user enjoys progressive insights, community focus, and climate urgency overlays.";
+      isLeft = true;
+    }
+  });
+</script>
+
 </body>
 </html>
