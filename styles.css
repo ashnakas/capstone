@@ -329,3 +329,58 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 217, 255, 0.15);
 }
+.tech-specs {
+  background: #0f0f10;
+  color: #f0f0f0;
+  padding: 3rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.tech-specs h2 {
+  font-size: 2.5rem;
+  color: #00d9ff;
+  margin-bottom: 0.5rem;
+}
+
+.tech-specs h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.tech-specs .tagline {
+  font-size: 1rem;
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.tech-specs .overview {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.tech-specs h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #00d9ff;
+}
+
+.tech-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tech-list li {
+  margin-bottom: 1rem;
+  border-left: 4px solid #00d9ff;
+  padding-left: 0.75rem;
+  line-height: 1.5;
+}
