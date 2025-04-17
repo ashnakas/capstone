@@ -221,3 +221,49 @@ footer {
   font-size: 0.9rem;
   color: #999;
 }
+.how-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #121214;
+}
+
+.how-header h1 {
+  font-size: 2.5rem;
+  color: #00d9ff;
+}
+
+.how-header p {
+  font-style: italic;
+  color: #ccc;
+  margin-top: 0.5rem;
+}
+
+.lens-viewer-section {
+  padding: 2rem 1.5rem;
+  background: #0f0f10;
+  color: #eee;
+  text-align: center;
+}
+
+.lens-description {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.lens-description h2 {
+  color: #00d9ff;
+  margin-bottom: 1rem;
+}
+
+.lens-description ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.lens-description ul li {
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #00d9ff;
+  padding-left: 0.5rem;
+}
